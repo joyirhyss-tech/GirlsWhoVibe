@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: linear-gradient(160deg, #1a0a2e 0%, #2d1b4e 50%, #1a0a2e 100%);
+    font-family: 'Work Sans', sans-serif;
+    color: #f5f0e8;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.06;
+  }
+  .circle-1 { width: 500px; height: 500px; background: #d4a853; top: -150px; left: -100px; }
+  .circle-2 { width: 350px; height: 350px; background: #9b6fc0; bottom: -80px; right: -60px; }
+
+  .top-bar {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #d4a853, #c44d3f, #d4729e, #9b6fc0);
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    padding: 55px 65px;
+    height: calc(100% - 6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .header-text {
+    font-family: 'DM Mono', monospace;
+    font-size: 16px;
+    color: #9b6fc0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 1.05;
+    margin-bottom: 10px;
+    color: #f5f0e8;
+  }
+
+  .title span {
+    background: linear-gradient(135deg, #e8c875, #d4a853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .sessions {
+    display: flex;
+    gap: 30px;
+    margin: 25px 0;
+  }
+
+  .session-card {
+    flex: 1;
+    background: rgba(123, 79, 158, 0.15);
+    border: 1px solid rgba(155, 111, 192, 0.3);
+    border-radius: 20px;
+    padding: 35px 30px;
+  }
+
+  .session-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: #d4729e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+  }
+
+  .session-name {
+    font-size: 28px;
+    font-weight: 800;
+    color: #f5f0e8;
+    margin-bottom: 18px;
+  }
+
+  .session-date {
+    font-size: 22px;
+    font-weight: 700;
+    color: #e8c875;
+    margin-bottom: 10px;
+  }
+
+  .session-time {
+    font-size: 18px;
+    color: #c0c0c0;
+    margin-bottom: 6px;
+  }
+
+  .session-format {
+    font-size: 16px;
+    color: #7b4f9e;
+  }
+
+  .seats {
+    font-family: 'DM Mono', monospace;
+    font-size: 16px;
+    color: #c44d3f;
+    margin-top: 16px;
+    font-weight: 500;
+  }
+
+  .pay-banner {
+    background: linear-gradient(135deg, rgba(196, 77, 63, 0.2), rgba(212, 114, 158, 0.15));
+    border: 1px solid rgba(196, 77, 63, 0.4);
+    border-radius: 16px;
+    padding: 28px 35px;
+    text-align: center;
+  }
+
+  .pay-text {
+    font-size: 34px;
+    font-weight: 800;
+    color: #f5f0e8;
+  }
+
+  .pay-text span {
+    color: #e8c875;
+  }
+
+  .pay-sub {
+    font-size: 18px;
+    color: #d4d4d4;
+    margin-top: 6px;
+  }
+
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .register {
+    font-size: 26px;
+    font-weight: 700;
+    color: #d4a853;
+  }
+
+  .powered {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: #7b4f9e;
+  }
+</style>
+</head>
+<body>
+  <div class="circle circle-1"></div>
+  <div class="circle circle-2"></div>
+
+  <div class="top-bar"></div>
+
+  <div class="content">
+    <div>
+      <div class="header">
+        <div class="header-left">
+          <img src="../GWV.png" alt="GWV">
+          <span class="header-text">Summer 2026</span>
+        </div>
+      </div>
+
+      <div class="title"><span>Three Streams.</span><br>Pick Yours.</div>
+    </div>
+
+    <div class="sessions">
+      <div class="session-card">
+        <div class="session-label">Afternoon Sun</div>
+        <div class="session-name">Mon & Wed</div>
+        <div class="session-date">Jun 8 – Jul 15, 2026</div>
+        <div class="session-time">1:00 – 3:00 PM CT · 7 PM UK</div>
+        <div class="session-format">Online worldwide</div>
+        <div class="seats">15 seats · 6 weeks</div>
+      </div>
+      <div class="session-card">
+        <div class="session-label">Bright Side</div>
+        <div class="session-name">Tue & Fri</div>
+        <div class="session-date">Jun 9 – Jul 17, 2026</div>
+        <div class="session-time">9:30 – 11:30 AM CT · 3:30 PM UK</div>
+        <div class="session-format">Online worldwide</div>
+        <div class="seats">15 seats · 6 weeks</div>
+      </div>
+      <div class="session-card">
+        <div class="session-label">Weekend Build</div>
+        <div class="session-name">Sat & Sun</div>
+        <div class="session-date">Jun 13 – Jul 26, 2026</div>
+        <div class="session-time">10 AM – 12 PM CT · 4 PM UK</div>
+        <div class="session-format">Online worldwide</div>
+        <div class="seats">15 seats · 6 weeks</div>
+      </div>
+    </div>
+
+    <div class="pay-banner">
+      <div class="pay-text">Sliding scale. Starting at <span>$0</span>.</div>
+      <div class="pay-sub">Scholarship is the default.</div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="register">Register at GirlsWhoVibe.org</div>
+      <div class="powered">aidedeq.com | thepracticecenter.org</div>
+    </div>
+  </div>
+</body>
+</html>

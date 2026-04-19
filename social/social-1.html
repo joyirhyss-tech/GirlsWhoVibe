@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: linear-gradient(160deg, #1a0a2e 0%, #2d1b4e 40%, #1a0a2e 70%, #2d1b4e 100%);
+    font-family: 'Work Sans', sans-serif;
+    color: #f5f0e8;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Decorative circles */
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.08;
+  }
+  .circle-1 { width: 600px; height: 600px; background: #9b6fc0; top: -200px; right: -150px; }
+  .circle-2 { width: 400px; height: 400px; background: #d4a853; bottom: -100px; left: -100px; }
+  .circle-3 { width: 250px; height: 250px; background: #d4729e; bottom: 200px; right: 100px; }
+
+  /* Top accent bar */
+  .top-bar {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #d4a853, #c44d3f, #d4729e, #9b6fc0);
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    padding: 60px 70px;
+    height: calc(100% - 6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logo-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 10px;
+  }
+
+  .logo-row img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .presents {
+    font-family: 'DM Mono', monospace;
+    font-size: 18px;
+    color: #9b6fc0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .main-title {
+    font-size: 92px;
+    font-weight: 900;
+    line-height: 1.0;
+    margin: 20px 0;
+    background: linear-gradient(135deg, #f5f0e8 0%, #e8c875 50%, #d4a853 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #f5f0e8;
+    line-height: 1.35;
+    margin-bottom: 20px;
+  }
+
+  .tagline {
+    font-family: 'DM Mono', monospace;
+    font-size: 20px;
+    color: #d4729e;
+    line-height: 1.5;
+    padding: 16px 0;
+    border-top: 1px solid rgba(155, 111, 192, 0.3);
+    border-bottom: 1px solid rgba(155, 111, 192, 0.3);
+  }
+
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .powered-by {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    color: #7b4f9e;
+  }
+
+  .register {
+    font-size: 22px;
+    font-weight: 700;
+    color: #d4a853;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+  <div class="circle circle-1"></div>
+  <div class="circle circle-2"></div>
+  <div class="circle circle-3"></div>
+
+  <div class="top-bar"></div>
+
+  <div class="content">
+    <div>
+      <div class="logo-row">
+        <img src="../GWV.png" alt="GWV Logo">
+        <span class="presents">GirlsWhoVibe presents</span>
+      </div>
+
+      <div class="main-title">Spring<br>Build<br>Camp</div>
+
+      <div class="subtitle">A 7-day virtual experience for<br>young women ages 15–17 and allies</div>
+
+      <div class="tagline">Where brain science meets<br>emotional intelligence meets AI</div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="powered-by">Powered by The Practice Center + AIdedEQ</div>
+      <div class="register">GirlsWhoVibe.org</div>
+    </div>
+  </div>
+</body>
+</html>

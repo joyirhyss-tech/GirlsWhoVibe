@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gwv-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8181", "--directory", "/Users/jkr/Documents/ALL Build Projects/Site GirlsWhoVibe_dashboard/GirlsWhoVibe-Site Info"],
+      "port": 8181
+    }
+  ]
+}

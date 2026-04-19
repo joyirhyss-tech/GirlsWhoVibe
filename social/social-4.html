@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1200px;
+    height: 630px;
+    background: linear-gradient(160deg, #1a0a2e 0%, #2d1b4e 50%, #1a0a2e 100%);
+    font-family: 'Work Sans', sans-serif;
+    color: #f5f0e8;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.05;
+  }
+  .circle-1 { width: 400px; height: 400px; background: #9b6fc0; top: -150px; right: -50px; }
+  .circle-2 { width: 300px; height: 300px; background: #d4a853; bottom: -100px; left: -50px; }
+
+  .top-bar {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #d4a853, #c44d3f, #d4729e, #9b6fc0);
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    padding: 30px 45px 28px;
+    height: calc(100% - 5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .top-left img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #f5f0e8;
+  }
+
+  .title span {
+    color: #e8c875;
+  }
+
+  .register-top {
+    font-size: 16px;
+    font-weight: 600;
+    color: #d4a853;
+    font-family: 'DM Mono', monospace;
+  }
+
+  .days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px;
+  }
+
+  .day-card {
+    background: rgba(123, 79, 158, 0.12);
+    border: 1px solid rgba(155, 111, 192, 0.25);
+    border-radius: 14px;
+    padding: 18px 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: 160px;
+  }
+
+  .day-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0d0a12;
+    background: #c44d3f;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    width: fit-content;
+    letter-spacing: 1px;
+  }
+
+  .day-card:last-child .day-num {
+    background: #d4a853;
+  }
+
+  .day-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f5f0e8;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+
+  .day-desc {
+    font-size: 11.5px;
+    color: #c0c0c0;
+    line-height: 1.4;
+    flex: 1;
+  }
+
+  .bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid rgba(155, 111, 192, 0.2);
+  }
+
+  .bottom-left {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f0e8;
+  }
+
+  .bottom-left span { color: #e8c875; }
+
+  .bottom-right {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: #7b4f9e;
+  }
+</style>
+</head>
+<body>
+  <div class="circle circle-1"></div>
+  <div class="circle circle-2"></div>
+
+  <div class="top-bar"></div>
+
+  <div class="content">
+    <div class="top-row">
+      <div class="top-left">
+        <img src="../GWV.png" alt="GWV">
+        <div class="title"><span>Summer 2026</span> — Your Six Weeks</div>
+      </div>
+      <div class="register-top">GirlsWhoVibe.org</div>
+    </div>
+
+    <div class="days-grid">
+      <div class="day-card">
+        <div class="day-num">WEEK 1</div>
+        <div class="day-title">FEEL — Name what frustrates you</div>
+        <div class="day-desc">Identity, feelings wheel, 12 Principles. Pick one real problem to solve.</div>
+      </div>
+      <div class="day-card">
+        <div class="day-num">WEEK 2</div>
+        <div class="day-title">FRAME — Spec what "solved" looks like</div>
+        <div class="day-desc">Magic-wand vision, user journey, anti-goals. Leave with a 1-page spec.</div>
+      </div>
+      <div class="day-card">
+        <div class="day-num">WEEK 3</div>
+        <div class="day-title">FLOW · 1 — Prompt Claude, build with Lovable</div>
+        <div class="day-desc">Prompting fundamentals + ethics. Ship your first working prototype.</div>
+      </div>
+      <div class="day-card">
+        <div class="day-num">WEEK 4</div>
+        <div class="day-title">FLOW · 2 — Polish with Canva + Figma</div>
+        <div class="day-desc">Iterate with AI, make it beautiful, deploy to Netlify.</div>
+      </div>
+      <div class="day-card">
+        <div class="day-num">WEEK 5</div>
+        <div class="day-title">FIX — Peer test with Roo</div>
+        <div class="day-desc">Receiving feedback. Bug triage. The adulthood skill behind every build.</div>
+      </div>
+      <div class="day-card">
+        <div class="day-num">WEEK 6</div>
+        <div class="day-title">FORWARD — Demo Day + reflect</div>
+        <div class="day-desc">Cross-stream showcase. Ready-for-adulthood reflection. Intern pipeline invite.</div>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <div class="bottom-left">6 weeks. AI + the self-track, side by side. <span>Sliding scale starting at $0.</span></div>
+      <div class="bottom-right">aidedeq.org | thepracticecenter.org</div>
+    </div>
+  </div>
+</body>
+</html>

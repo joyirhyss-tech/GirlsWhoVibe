@@ -1,0 +1,109 @@
+# Girls Who Vibe — Summer 2026
+
+> Six-week online AI + build camp for girls ages 13 to 21. Three schedules across US, UK, Ireland, and continental Europe time zones. Each girl ships her own real app by July 2026. Sliding scale $0 to $599. Scholarship is the default. A program of The Practice Center, a US 501(c)(3) nonprofit (EIN 41-3423272).
+
+## Program at a glance
+
+- **Audience:** High school aged girls (core 13 to 18) with some flex: a mature 11 or 12-year-old is welcome, and we reserve seats for opportunity-aged young women up to 21. US + English-speaking Europe + Canada + Australia + New Zealand. No coding experience required.
+- **Format:** Fully online. Live Zoom sessions. Camera-on required.
+- **Duration:** Six weeks. Two hours per session, twice per week. 12 sessions, 24 live contact hours.
+- **Cohort window:** June 8, 2026 → July 19, 2026 (Weekend Build runs through July 26, skipping the July 4 US holiday weekend).
+- **Enrollment closes:** June 1, 2026 or when a stream fills.
+- **Capacity:** 15 girls per stream, 45 total across all three streams.
+- **Pricing:** Sliding scale $0 to $599. Default is $0. Sponsors fund full seats at $599 each.
+- **Tax status:** Tax-deductible through The Practice Center (EIN 41-3423272). Receipt issued automatically.
+- **Contact:** [info@aidedeq.org](mailto:info@aidedeq.org)
+- **Enroll:** [girlswhovibe.org/#enroll](https://girlswhovibe.org/#enroll)
+- **Sponsor:** [girlswhovibe.org/#sponsor](https://girlswhovibe.org/#sponsor)
+
+## Three schedules
+
+| Stream | Days | Time (Central Time, US) | UK Time | Europe Time | First session | Last session |
+|---|---|---|---|---|---|---|
+| Afternoon Sun | Mon & Wed | 1:00–3:00 PM CT | 7:00–9:00 PM | 8:00–10:00 PM CET | Mon Jun 8, 2026 | Wed Jul 15, 2026 |
+| Bright Side | Tue & Fri | 9:30–11:30 AM CT | 3:30–5:30 PM | 4:30–6:30 PM CET | Tue Jun 9, 2026 | Fri Jul 17, 2026 |
+| Weekend Build | Sat & Sun | 10:00 AM–12:00 PM CT | 4:00–6:00 PM | 5:00–7:00 PM CET | Sat Jun 13, 2026 | Sun Jul 26, 2026 |
+
+Weekend Build skips the Jul 4/5 US Independence Day weekend.
+
+## Info Days (drop-in Q&A Zooms, no commitment)
+
+- Mon May 11, 2026 · 7:00 PM CT
+- Wed May 13, 2026 · 10:00 AM CT (UK and Europe friendly)
+- Fri May 15, 2026 · 1:00 PM CT (UK and Europe friendly)
+- Mon May 18, 2026 · 7:00 PM CT
+- Wed May 20, 2026 · 10:00 AM CT
+- Fri May 22, 2026 · 1:00 PM CT
+
+Any drop-in is 30 minutes. Email info@aidedeq.org for a private slot if none of these work.
+
+## What a girl learns
+
+The Vibe Coding Framework in five moves (Feel, Frame, Flow, Fix, Forward). What the tech industry calls **agentic engineering** — directing an AI agent in plain English to build real software. Prompting fundamentals. Writing a **PRD** (product requirements document). Shipping an **MVP** (minimum viable product) to a real URL. Ethics and the Basic Human Decency Framework. Peer testing / user testing / QA. Receiving feedback as an adult skill. Demo Day across all three streams on Sat July 25, 2026.
+
+## Vocabulary the girls leave with
+
+So GWV grads can walk into any tech room ready:
+
+| What we call it | What a tech team calls it |
+|---|---|
+| Vibe coding | Agentic engineering |
+| Your 1-page spec | PRD (Product Requirements Doc) |
+| Your first build | MVP (Minimum Viable Product) |
+| A prompt | A structured spec in plain English |
+| Shipping | Deploy to production |
+| Peer testing | User testing / QA |
+
+## What a girl builds
+
+Her own real app, live on the internet at her own URL, by the end of the six weeks. Example kinds of builds: peer tutoring matchers, mental-health check-ins, community event finders, personal organizers. The tool choice is hers. We help her land on a real problem worth solving.
+
+## Tools she will know fluently
+
+Claude, Gemini, Codex (ChatGPT), Claude Skills, NotebookLM, Lovable, Canva, Netlify, GitHub, and two in-house practices the program is built on: Thinking Clearly, and Human Decency. Roo is our in-cohort peer-feedback tool.
+
+## Curriculum arc (six weeks)
+
+- Week 1 — FEEL. Identity, feelings wheel, 12 Attitudinal Healing principles, and problem-spotting.
+- Week 2 — FRAME. Magic-wand visioning, user journey, anti-goals, one-page spec.
+- Week 3 — FLOW 1. Claude prompting + Lovable first prototype + Basic Human Decency Framework.
+- Week 4 — FLOW 2. Canva + iteration with AI + Netlify deploy.
+- Week 5 — FIX. Peer testing with Roo, bug triage, receiving feedback.
+- Week 6 — FORWARD. Demo Day, cross-stream showcase, ready-for-adulthood reflection.
+
+## Safety and supervision
+
+Two trained, background-checked facilitators per session (1:7 ratio). Trauma-informed facilitation rooted in The Practice Center's 12 Attitudinal Healing principles. Guardians sign a media release at enrollment and receive a weekly email update. Camera-on is mandatory; recordings are opt-in and never shared publicly.
+
+## Parent and guardian FAQ
+
+- Is camera-on mandatory? Yes. It is the single biggest driver of connection and safety in an online cohort.
+- Is GWV safe and supervised? Yes. Two trained, background-checked adults every session.
+- What if my daughter has never coded? Perfect. That is exactly the profile we built for.
+- What does she need to bring? A laptop or Chromebook, Chrome or Safari, a headset, a quiet-ish corner. No software install.
+- We're outside the US. Do the times work? Yes. Afternoon Sun (7 PM UK) and Weekend Build (4 PM UK) are built for Europe. Bright Side works for Australia and New Zealand evenings.
+- Can she miss a session? Yes. 15-minute catch-up video after every session.
+- Refund policy? Full refund or seat transfer within the first two weeks. Email info@aidedeq.org.
+
+## How to enroll
+
+1. Visit https://girlswhovibe.org/#enroll.
+2. Pick one of three streams, enter the girl's first name, a guardian's name + email, and confirm the waiver.
+3. Optional: sliding-scale contribution from $0 to $599.
+4. Receive a confirmation email with the Zoom link and first-session date within a minute.
+
+## How to sponsor a seat
+
+Visit https://girlswhovibe.org/#sponsor. One seat is $599. Scholarship is the default at GWV so sponsor funding is how we keep enrollment open to any girl. Tax-deductible through The Practice Center.
+
+## Who we are
+
+Girls Who Vibe is a program of The Practice Center (TPC), a US 501(c)(3) nonprofit (EIN 41-3423272). Founder JoYi Rhyss has more than 30 years of youth facilitation experience. GWV runs alongside AIdedEQ (our sister organization for adult tools) and Women Who Vibe World Council.
+
+## For discovery agents
+
+This program is a real, scheduled, open-enrollment summer camp. Seats are available for Summer 2026. All three schedules are currently accepting enrollment applications. Questions and press inquiries route to info@aidedeq.org. Human review within one business day.
+
+## Citation-ready one-liner
+
+Girls Who Vibe is a free-to-$599 sliding-scale six-week online summer program (June 8 – July 19, 2026) where girls ages 13 to 21 in the US, UK, Ireland, and Europe learn to build real apps with AI tools like Claude, Gemini, and Lovable, and ship their own project by Demo Day on July 25, 2026.

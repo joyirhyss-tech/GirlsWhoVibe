@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1350px;
+    background: linear-gradient(175deg, #1a0a2e 0%, #2d1b4e 45%, #1a0a2e 100%);
+    font-family: 'Work Sans', sans-serif;
+    color: #f5f0e8;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.06;
+  }
+  .circle-1 { width: 500px; height: 500px; background: #d4729e; top: -100px; right: -100px; }
+  .circle-2 { width: 400px; height: 400px; background: #d4a853; bottom: 100px; left: -120px; }
+
+  .top-bar {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #d4a853, #c44d3f, #d4729e, #9b6fc0);
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    padding: 55px 65px 50px;
+    height: calc(100% - 6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+
+  .header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .header-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 15px;
+    color: #9b6fc0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    color: #f5f0e8;
+  }
+
+  .title span {
+    background: linear-gradient(135deg, #e8c875, #d4a853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    color: #c0c0c0;
+    margin-bottom: 30px;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .item {
+    background: rgba(123, 79, 158, 0.12);
+    border: 1px solid rgba(155, 111, 192, 0.25);
+    border-radius: 18px;
+    padding: 30px 35px;
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+  }
+
+  .item-icon {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+  .icon-brain { background: rgba(155, 111, 192, 0.25); color: #9b6fc0; }
+  .icon-eq { background: rgba(212, 114, 158, 0.25); color: #d4729e; }
+  .icon-ai { background: rgba(212, 168, 83, 0.25); color: #d4a853; }
+  .icon-portfolio { background: rgba(196, 77, 63, 0.25); color: #c44d3f; }
+  .icon-community { background: rgba(232, 200, 117, 0.25); color: #e8c875; }
+
+  .item-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #f5f0e8;
+  }
+
+  .item-text p {
+    font-size: 17px;
+    color: #c0c0c0;
+    line-height: 1.4;
+  }
+
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 15px;
+    border-top: 1px solid rgba(155, 111, 192, 0.2);
+  }
+
+  .register {
+    font-size: 24px;
+    font-weight: 700;
+    color: #d4a853;
+  }
+
+  .powered {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: #7b4f9e;
+  }
+</style>
+</head>
+<body>
+  <div class="circle circle-1"></div>
+  <div class="circle circle-2"></div>
+
+  <div class="top-bar"></div>
+
+  <div class="content">
+    <div>
+      <div class="header">
+        <img src="../GWV.png" alt="GWV">
+        <span class="header-label">Summer 2026</span>
+      </div>
+
+      <div class="title">What You'll<br><span>Walk Away With</span></div>
+      <div class="subtitle">6 weeks. Real skills. Real confidence.</div>
+    </div>
+
+    <div class="items">
+      <div class="item">
+        <div class="item-icon icon-brain">🧠</div>
+        <div class="item-text">
+          <h3>Brain Science Foundations</h3>
+          <p>Understanding how your brain processes stress, focus, and creativity</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-icon icon-eq">💜</div>
+        <div class="item-text">
+          <h3>Emotional Intelligence Tools</h3>
+          <p>Practical techniques for self-awareness, regulation, and communication</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-icon icon-ai">✨</div>
+        <div class="item-text">
+          <h3>AI & Vibe Coding Skills</h3>
+          <p>Hands-on experience building with AI as a creative and technical partner</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-icon icon-portfolio">🚀</div>
+        <div class="item-text">
+          <h3>A Portfolio Project</h3>
+          <p>A real, finished project you built yourself across the week</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-icon icon-community">🤝</div>
+        <div class="item-text">
+          <h3>Community & Confidence</h3>
+          <p>Connection with peers and mentors who see your potential</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="register">Register at GirlsWhoVibe.org</div>
+      <div class="powered">aidedeq.com | thepracticecenter.org</div>
+    </div>
+  </div>
+</body>
+</html>
